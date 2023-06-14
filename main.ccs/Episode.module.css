@@ -1,0 +1,15 @@
+.box {
+  width: 1000px;
+  padding: 40px 0 40px;
+  border: solid 4px rgb(238, 174, 202);
+  position: relative;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto 50px auto;
+}
+.box_text {
+  color: #fff;
+  padding-left: 20px;
+  font-size: 24px;
+}/*# sourceMappingURL=Episode.module.css.map */

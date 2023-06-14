@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.box {
+  text-align: center;
+  height: 100%;
+}/*# sourceMappingURL=Home.module.css.map */

@@ -1,0 +1,10 @@
+.search {
+  text-align: -webkit-center;
+  height: 50px;
+  margin-bottom: 70px;
+}
+
+.div {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+}/*# sourceMappingURL=Characters.module.css.map */
