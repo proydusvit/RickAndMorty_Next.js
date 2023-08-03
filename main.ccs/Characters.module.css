@@ -7,4 +7,9 @@
 .div {
   display: grid;
   grid-template-columns: 0.5fr 1.5fr;
+}
+
+.loader {
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=Characters.module.css.map */

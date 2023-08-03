@@ -11,7 +11,7 @@ const PickEpisode = ({total,name,changeID}: OptionProps) => {
     for (let i = 0; i < total; i++) {
       const value = i + 1;
       options.push(
-        <option value={value} key={value} >
+        <option  className={styles.option}  value={value} key={value} >
          Episode - {value}
         </option>
       );

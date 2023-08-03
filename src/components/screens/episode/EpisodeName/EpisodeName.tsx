@@ -9,8 +9,8 @@ const EpisodeName = ({name, airDate}:EpisodeProps) => {
   return (
    
        <div className={styles.box}>
-      <p className={styles.box_text}>Episode name : {name} </p>
-      <p className={styles.box_text}>Air Date: {airDate}</p>
+      <p className={styles.box_text}>Episode name : {name === '' ? 'Unknown' : name} </p>
+      <p className={styles.box_text}>Air Date: {airDate === '' ? 'Unknown' : airDate}</p>
     </div>
   
    

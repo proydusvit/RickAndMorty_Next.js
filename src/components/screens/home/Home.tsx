@@ -2,7 +2,7 @@ import Image from "next/image";
 import Layout from "@/components/layout/Layout";
 import homeImg from "@/image/home.png";
 import { NextPage } from "next";
-import style from "./Home.module.scss"
+import style from "./Home.module.scss";
 
 const Home: NextPage = () => {
   return (

@@ -22,8 +22,14 @@
 }
 .box_text {
   color: #fff;
-  padding-left: 20px;
+  padding-left: 10px;
   font-size: 20px;
+}
+.box_text_detalis {
+  padding-left: 20px;
+  color: black;
+  font-size: 19px;
+  background-color: rgb(238, 174, 202);
 }
 
 .thumb {

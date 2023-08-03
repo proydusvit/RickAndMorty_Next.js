@@ -10,6 +10,7 @@ type PropsSearch = {
 const Search = ({ setSearch, setPageIndex, search }: PropsSearch) => {
 
   const handleInputChange = (event:  React.ChangeEvent<HTMLInputElement>) => {
+    
     setSearch(event.target.value);
     setPageIndex(1);
   };

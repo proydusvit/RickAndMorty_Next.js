@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "next build",
+    "deploy": "next export && gh-pages -d out"
   },
   "dependencies": {
     "@types/node": "18.16.0",
@@ -19,11 +21,11 @@
     "react-bootstrap": "^2.7.4",
     "react-dom": "18.2.0",
     "react-paginate": "^8.2.0",
-    "swr": "^2.1.5",
     "typescript": "5.0.4",
     "use-debounce": "^9.0.4"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "sass": "^1.62.0"
   }
 }

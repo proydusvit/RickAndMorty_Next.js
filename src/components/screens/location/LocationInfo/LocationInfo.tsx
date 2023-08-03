@@ -10,7 +10,7 @@ const LocationInfo = ({name,   dimension}: LocationProps) => {
   return (
     <div className={styles.box}>
       <p className={styles.box_text}>Location name: {name === '' ? 'Unknown' : name}  </p>
-      <p className={styles.box_text}>Dimension: {dimension} </p>
+      <p className={styles.box_text}>Dimension: {dimension === '' ? 'Unknown' : dimension} </p>
     </div>
   )
 }

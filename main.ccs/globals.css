@@ -8,10 +8,10 @@
 
 html,
 body {
+  max-height: 100%;
   max-width: 100vw;
   overflow-x: hidden;
-  background: rgb(50, 47, 47);
-  background: linear-gradient(318deg, rgb(50, 47, 47) 21%, rgb(0, 0, 0) 57%, rgba(33, 24, 24, 0.8911939776) 100%);
+  background: black;
 }
 
 a {

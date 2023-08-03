@@ -21,17 +21,14 @@ const Header: FC = () => {
         href="/location"
         className={pathname === "/location" ? styles.active : ""}
       >
-       Location
+        Location
       </Link>
       <Link
         href="/episodes"
-        className={pathname === "/episodes" ? styles.active : "" }
+        className={pathname === "/episodes" ? styles.active : ""}
       >
-      Episodes
+        Episodes
       </Link>
-
-    
-
     </header>
   );
 };

@@ -4,8 +4,9 @@ import Filter from "@/components/screens/characters/Filter/Filter";
 import Pagination from "@/components/screens/characters/Pagination/Pagination";
 import Search from "@/components/screens/characters/Search/Search";
 import NotFound from "@/components/screens/characters/NotFound/NotFound";
-
+import Loader  from "../components/loading/Loading";
 import  style from "../components/screens/characters/Characters.module.scss"
+
 import { useState, useEffect } from "react";
 import { NextPage } from "next";
 
@@ -29,12 +30,14 @@ const CharactersPage: NextPage = () => {
 
   useEffect(() => {
     setLoading(true);
+    setTimeout(() => {
     fetch(api)
       .then((res) => res.json())
       .then((data) => {
         setFetchedData(data);
         setLoading(false);
       });
+    }, 400);
   }, [api]);
 
   return (
@@ -55,7 +58,7 @@ const CharactersPage: NextPage = () => {
           setPageNumber={setPageIndex}
         />
         {loading ? (
-          <div>loading</div>
+          <div className={style.loader}><Loader/></div>
         ) : results == null ? (
          <NotFound/>
         ) : (
